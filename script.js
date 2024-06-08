@@ -50,7 +50,7 @@ btwHold.addEventListener('click', function(){
     score[activePlayer] += currentScore;
     document.querySelector(`#score--${activePlayer}`).textContent = score[activePlayer];
 
-    if(score[activePlayer] >= 20)
+    if(score[activePlayer] >= 100)
         {
         document.body.style.backgroundImage = 'linear-gradient(to top left, #abf590 0%, #1afb5a 100%)';
         document.body.style.color = "green";
